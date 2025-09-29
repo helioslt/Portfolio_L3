@@ -1,0 +1,70 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Menu principal */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #444;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu > li {
+  margin: 0 15px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #666;
+}
+
+/* Sous-menu (caché par défaut) */
+.sous-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 150px;
+}
+
+.sous-menu li a {
+  padding: 10px;
+  display: block;
+}
+
+.sous-menu li a:hover {
+  background: #777;
+}
+
+/* Afficher le sous-menu au survol */
+.menu li:hover .sous-menu {
+  display: block;
+}
