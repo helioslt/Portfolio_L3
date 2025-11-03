@@ -64,6 +64,30 @@ header {
   background: #777;
 }
 
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+.intro {
+  max-width: 800px;
+  margin: auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 /* Afficher le sous-menu au survol */
 .menu li:hover .sous-menu {
   display: block;
