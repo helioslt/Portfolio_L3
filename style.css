@@ -134,3 +134,77 @@ footer {
   color: #2b7a78;
   font-weight: bold;
 }
+
+/* --- PAGE DE RUBRIQUE --- */
+.page-rubrique {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 90vh;
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.page-rubrique .contenu {
+  max-width: 800px;
+  width: 100%;
+}
+
+.page-rubrique h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.page-rubrique p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* --- BOUTONS DE TÉLÉCHARGEMENT --- */
+.downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+}
+
+.downloads a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2b7a78;
+  color: white;
+  width: 80%;
+  max-width: 500px;
+  height: 80px;
+  font-size: 1.1em;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.downloads a:hover {
+  background: #17252a;
+  transform: scale(1.05);
+}
+
+/* --- LIEN DE RETOUR --- */
+.back {
+  display: inline-block;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #2b7a78;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.back:hover {
+  color: #17252a;
+}
