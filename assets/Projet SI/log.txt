@@ -1,0 +1,4 @@
+admin@gmail.com  	/	adminmdp
+test@			/	testmdp
+testorga@		/	testorgamdp
+orga2@			/	orga2mdp
